@@ -1,3 +1,15 @@
+# Into an epic fight between humans and monsters both bands has a list
+# of fighters with specific powers
+# Battle develops in rounds, each round faces each fighter of the band
+# The band with higher attack power wins the round, and it's power should
+# be the sum of the next fighter in his team
+# In draw case, both fighters fall and doesn't affect the next round
+# Given 2 strings of text "zombies", "humans" where each digit 1-9
+# represents the power of the fighter, determinate who stays at the end
+# and the power left
+# IMPORTANT: 2 strings always has the same length
+# OUTPUT: String that represents the final result
+
 def battleHorde(zombies: str, humans: str):
     """
         This function simulates a battle
