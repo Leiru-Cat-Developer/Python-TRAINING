@@ -1,3 +1,4 @@
+
 def findTheSafestPath(matrix: list[list[int]]):
     sums = 0
     valuesRows = []
@@ -15,4 +16,11 @@ def findTheSafestPath(matrix: list[list[int]]):
 
     return print(f"\nSafest path has {(min(valuesRows)+min(valueColumns))-1} damage points")
 
-findTheSafestPath([[2,1,5,2],[1,1,1,1],[4,3,5,1],[2,4,6,1],[9,10,11,1],[5,2,7,1]])
+findTheSafestPath([
+    [2,1,5,2],
+    [1,1,1,1],
+    [4,3,5,1],
+    [2,4,6,1],
+    [9,10,11,1],
+    [5,2,7,1]
+])
