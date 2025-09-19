@@ -13,7 +13,7 @@ def findTheKiller(whisper: str, suspects: list[str]) -> list[str]:
         normalizedWhisper = normalizedWhisper[:-1]
     # Normalized suspects with lower case each
     normalizedSuspects = [word.lower() for word in suspects]
-    # Erasing duplicated suspects
+    # Erasing duplicated
     normalizedSuspects = list(dict.fromkeys(normalizedSuspects))
 
     # Saving the final result
