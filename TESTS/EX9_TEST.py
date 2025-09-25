@@ -16,5 +16,5 @@ def binarySearch(array: list[int], number: int):
     return "\nThe number doesn't exists"
 
 array = [5,7,4,10,54,3,69,11,52,30]
-number = 10
+number = 99
 print(binarySearch(array,number))
